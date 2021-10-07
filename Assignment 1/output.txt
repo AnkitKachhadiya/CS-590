@@ -1,0 +1,930 @@
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 3 1000 10
+Random_Vector 3 1000 10
+Random_Vector 3 1000 10
+Random_Vector 4 1000 10
+Random_Vector 3 1000 10
+Random_Vector 3 1000 10
+Random_Vector 3 1000 10
+Random_Vector 3 1000 10
+Random_Vector 4 1000 10
+Random_Vector 3 1000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+Sorted_Vector 0 1000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 3 1000 10
+Inverse_Sorted_Vector 5 1000 10
+Inverse_Sorted_Vector 6 1000 10
+Inverse_Sorted_Vector 3 1000 10
+Inverse_Sorted_Vector 7 1000 10
+Inverse_Sorted_Vector 3 1000 10
+Inverse_Sorted_Vector 4 1000 10
+Inverse_Sorted_Vector 10 1000 10
+Inverse_Sorted_Vector 10 1000 10
+Inverse_Sorted_Vector 9 1000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 3 1000 25
+Random_Vector 4 1000 25
+Random_Vector 3 1000 25
+Random_Vector 3 1000 25
+Random_Vector 4 1000 25
+Random_Vector 4 1000 25
+Random_Vector 5 1000 25
+Random_Vector 4 1000 25
+Random_Vector 3 1000 25
+Random_Vector 2 1000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 1000 25
+Sorted_Vector 0 1000 25
+Sorted_Vector 0 1000 25
+Sorted_Vector 0 1000 25
+Sorted_Vector 1 1000 25
+Sorted_Vector 0 1000 25
+Sorted_Vector 0 1000 25
+Sorted_Vector 0 1000 25
+Sorted_Vector 1 1000 25
+Sorted_Vector 0 1000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 6 1000 25
+Inverse_Sorted_Vector 2 1000 25
+Inverse_Sorted_Vector 5 1000 25
+Inverse_Sorted_Vector 5 1000 25
+Inverse_Sorted_Vector 6 1000 25
+Inverse_Sorted_Vector 7 1000 25
+Inverse_Sorted_Vector 6 1000 25
+Inverse_Sorted_Vector 4 1000 25
+Inverse_Sorted_Vector 6 1000 25
+Inverse_Sorted_Vector 5 1000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 1 1000 50
+Random_Vector 3 1000 50
+Random_Vector 4 1000 50
+Random_Vector 5 1000 50
+Random_Vector 4 1000 50
+Random_Vector 4 1000 50
+Random_Vector 3 1000 50
+Random_Vector 2 1000 50
+Random_Vector 4 1000 50
+Random_Vector 4 1000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 1000 50
+Sorted_Vector 1 1000 50
+Sorted_Vector 1 1000 50
+Sorted_Vector 1 1000 50
+Sorted_Vector 1 1000 50
+Sorted_Vector 0 1000 50
+Sorted_Vector 0 1000 50
+Sorted_Vector 1 1000 50
+Sorted_Vector 0 1000 50
+Sorted_Vector 1 1000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 7 1000 50
+Inverse_Sorted_Vector 8 1000 50
+Inverse_Sorted_Vector 3 1000 50
+Inverse_Sorted_Vector 4 1000 50
+Inverse_Sorted_Vector 9 1000 50
+Inverse_Sorted_Vector 8 1000 50
+Inverse_Sorted_Vector 8 1000 50
+Inverse_Sorted_Vector 3 1000 50
+Inverse_Sorted_Vector 10 1000 50
+Inverse_Sorted_Vector 8 1000 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 16 2500 10
+Random_Vector 5 2500 10
+Random_Vector 13 2500 10
+Random_Vector 19 2500 10
+Random_Vector 6 2500 10
+Random_Vector 6 2500 10
+Random_Vector 20 2500 10
+Random_Vector 14 2500 10
+Random_Vector 14 2500 10
+Random_Vector 5 2500 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 1 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 1 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 0 2500 10
+Sorted_Vector 0 2500 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 47 2500 10
+Inverse_Sorted_Vector 31 2500 10
+Inverse_Sorted_Vector 37 2500 10
+Inverse_Sorted_Vector 8 2500 10
+Inverse_Sorted_Vector 27 2500 10
+Inverse_Sorted_Vector 12 2500 10
+Inverse_Sorted_Vector 31 2500 10
+Inverse_Sorted_Vector 24 2500 10
+Inverse_Sorted_Vector 30 2500 10
+Inverse_Sorted_Vector 11 2500 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 24 2500 25
+Random_Vector 15 2500 25
+Random_Vector 18 2500 25
+Random_Vector 14 2500 25
+Random_Vector 5 2500 25
+Random_Vector 5 2500 25
+Random_Vector 16 2500 25
+Random_Vector 14 2500 25
+Random_Vector 17 2500 25
+Random_Vector 24 2500 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 0 2500 25
+Sorted_Vector 1 2500 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 32 2500 25
+Inverse_Sorted_Vector 23 2500 25
+Inverse_Sorted_Vector 38 2500 25
+Inverse_Sorted_Vector 38 2500 25
+Inverse_Sorted_Vector 35 2500 25
+Inverse_Sorted_Vector 38 2500 25
+Inverse_Sorted_Vector 32 2500 25
+Inverse_Sorted_Vector 13 2500 25
+Inverse_Sorted_Vector 26 2500 25
+Inverse_Sorted_Vector 48 2500 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 6 2500 50
+Random_Vector 9 2500 50
+Random_Vector 19 2500 50
+Random_Vector 7 2500 50
+Random_Vector 20 2500 50
+Random_Vector 8 2500 50
+Random_Vector 10 2500 50
+Random_Vector 19 2500 50
+Random_Vector 5 2500 50
+Random_Vector 20 2500 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 2500 50
+Sorted_Vector 1 2500 50
+Sorted_Vector 0 2500 50
+Sorted_Vector 1 2500 50
+Sorted_Vector 0 2500 50
+Sorted_Vector 0 2500 50
+Sorted_Vector 0 2500 50
+Sorted_Vector 0 2500 50
+Sorted_Vector 0 2500 50
+Sorted_Vector 0 2500 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 19 2500 50
+Inverse_Sorted_Vector 29 2500 50
+Inverse_Sorted_Vector 9 2500 50
+Inverse_Sorted_Vector 12 2500 50
+Inverse_Sorted_Vector 29 2500 50
+Inverse_Sorted_Vector 39 2500 50
+Inverse_Sorted_Vector 14 2500 50
+Inverse_Sorted_Vector 12 2500 50
+Inverse_Sorted_Vector 16 2500 50
+Inverse_Sorted_Vector 28 2500 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 65 5000 10
+Random_Vector 55 5000 10
+Random_Vector 60 5000 10
+Random_Vector 58 5000 10
+Random_Vector 55 5000 10
+Random_Vector 63 5000 10
+Random_Vector 56 5000 10
+Random_Vector 65 5000 10
+Random_Vector 55 5000 10
+Random_Vector 52 5000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 5000 10
+Sorted_Vector 1 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+Sorted_Vector 0 5000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 96 5000 10
+Inverse_Sorted_Vector 37 5000 10
+Inverse_Sorted_Vector 133 5000 10
+Inverse_Sorted_Vector 58 5000 10
+Inverse_Sorted_Vector 128 5000 10
+Inverse_Sorted_Vector 117 5000 10
+Inverse_Sorted_Vector 83 5000 10
+Inverse_Sorted_Vector 76 5000 10
+Inverse_Sorted_Vector 58 5000 10
+Inverse_Sorted_Vector 98 5000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 52 5000 25
+Random_Vector 59 5000 25
+Random_Vector 64 5000 25
+Random_Vector 25 5000 25
+Random_Vector 25 5000 25
+Random_Vector 36 5000 25
+Random_Vector 32 5000 25
+Random_Vector 47 5000 25
+Random_Vector 88 5000 25
+Random_Vector 33 5000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 1 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 0 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 1 5000 25
+Sorted_Vector 0 5000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 103 5000 25
+Inverse_Sorted_Vector 90 5000 25
+Inverse_Sorted_Vector 123 5000 25
+Inverse_Sorted_Vector 69 5000 25
+Inverse_Sorted_Vector 119 5000 25
+Inverse_Sorted_Vector 62 5000 25
+Inverse_Sorted_Vector 110 5000 25
+Inverse_Sorted_Vector 62 5000 25
+Inverse_Sorted_Vector 137 5000 25
+Inverse_Sorted_Vector 44 5000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 30 5000 50
+Random_Vector 64 5000 50
+Random_Vector 20 5000 50
+Random_Vector 32 5000 50
+Random_Vector 19 5000 50
+Random_Vector 38 5000 50
+Random_Vector 28 5000 50
+Random_Vector 43 5000 50
+Random_Vector 64 5000 50
+Random_Vector 18 5000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 1 5000 50
+Sorted_Vector 1 5000 50
+Sorted_Vector 1 5000 50
+Sorted_Vector 1 5000 50
+Sorted_Vector 0 5000 50
+Sorted_Vector 1 5000 50
+Sorted_Vector 1 5000 50
+Sorted_Vector 1 5000 50
+Sorted_Vector 0 5000 50
+Sorted_Vector 0 5000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 50 5000 50
+Inverse_Sorted_Vector 58 5000 50
+Inverse_Sorted_Vector 37 5000 50
+Inverse_Sorted_Vector 38 5000 50
+Inverse_Sorted_Vector 122 5000 50
+Inverse_Sorted_Vector 107 5000 50
+Inverse_Sorted_Vector 93 5000 50
+Inverse_Sorted_Vector 61 5000 50
+Inverse_Sorted_Vector 45 5000 50
+Inverse_Sorted_Vector 37 5000 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 81 10000 10
+Random_Vector 275 10000 10
+Random_Vector 134 10000 10
+Random_Vector 192 10000 10
+Random_Vector 201 10000 10
+Random_Vector 215 10000 10
+Random_Vector 222 10000 10
+Random_Vector 168 10000 10
+Random_Vector 91 10000 10
+Random_Vector 176 10000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 0 10000 10
+Sorted_Vector 0 10000 10
+Sorted_Vector 0 10000 10
+Sorted_Vector 1 10000 10
+Sorted_Vector 1 10000 10
+Sorted_Vector 1 10000 10
+Sorted_Vector 0 10000 10
+Sorted_Vector 0 10000 10
+Sorted_Vector 0 10000 10
+Sorted_Vector 0 10000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 445 10000 10
+Inverse_Sorted_Vector 460 10000 10
+Inverse_Sorted_Vector 195 10000 10
+Inverse_Sorted_Vector 354 10000 10
+Inverse_Sorted_Vector 144 10000 10
+Inverse_Sorted_Vector 312 10000 10
+Inverse_Sorted_Vector 172 10000 10
+Inverse_Sorted_Vector 474 10000 10
+Inverse_Sorted_Vector 461 10000 10
+Inverse_Sorted_Vector 197 10000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 115 10000 25
+Random_Vector 227 10000 25
+Random_Vector 107 10000 25
+Random_Vector 244 10000 25
+Random_Vector 241 10000 25
+Random_Vector 245 10000 25
+Random_Vector 145 10000 25
+Random_Vector 204 10000 25
+Random_Vector 215 10000 25
+Random_Vector 109 10000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 1 10000 25
+Sorted_Vector 1 10000 25
+Sorted_Vector 1 10000 25
+Sorted_Vector 2 10000 25
+Sorted_Vector 1 10000 25
+Sorted_Vector 1 10000 25
+Sorted_Vector 2 10000 25
+Sorted_Vector 1 10000 25
+Sorted_Vector 2 10000 25
+Sorted_Vector 1 10000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 171 10000 25
+Inverse_Sorted_Vector 171 10000 25
+Inverse_Sorted_Vector 195 10000 25
+Inverse_Sorted_Vector 352 10000 25
+Inverse_Sorted_Vector 443 10000 25
+Inverse_Sorted_Vector 363 10000 25
+Inverse_Sorted_Vector 479 10000 25
+Inverse_Sorted_Vector 390 10000 25
+Inverse_Sorted_Vector 418 10000 25
+Inverse_Sorted_Vector 334 10000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 72 10000 50
+Random_Vector 271 10000 50
+Random_Vector 226 10000 50
+Random_Vector 234 10000 50
+Random_Vector 237 10000 50
+Random_Vector 72 10000 50
+Random_Vector 224 10000 50
+Random_Vector 191 10000 50
+Random_Vector 267 10000 50
+Random_Vector 87 10000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 1 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+Sorted_Vector 2 10000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 351 10000 50
+Inverse_Sorted_Vector 457 10000 50
+Inverse_Sorted_Vector 311 10000 50
+Inverse_Sorted_Vector 413 10000 50
+Inverse_Sorted_Vector 196 10000 50
+Inverse_Sorted_Vector 452 10000 50
+Inverse_Sorted_Vector 327 10000 50
+Inverse_Sorted_Vector 188 10000 50
+Inverse_Sorted_Vector 243 10000 50
+Inverse_Sorted_Vector 348 10000 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 741 25000 10
+Random_Vector 1075 25000 10
+Random_Vector 685 25000 10
+Random_Vector 819 25000 10
+Random_Vector 468 25000 10
+Random_Vector 950 25000 10
+Random_Vector 913 25000 10
+Random_Vector 611 25000 10
+Random_Vector 523 25000 10
+Random_Vector 1351 25000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 1 25000 10
+Sorted_Vector 0 25000 10
+Sorted_Vector 1 25000 10
+Sorted_Vector 2 25000 10
+Sorted_Vector 1 25000 10
+Sorted_Vector 1 25000 10
+Sorted_Vector 1 25000 10
+Sorted_Vector 0 25000 10
+Sorted_Vector 1 25000 10
+Sorted_Vector 0 25000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 1655 25000 10
+Inverse_Sorted_Vector 1282 25000 10
+Inverse_Sorted_Vector 1972 25000 10
+Inverse_Sorted_Vector 2638 25000 10
+Inverse_Sorted_Vector 1347 25000 10
+Inverse_Sorted_Vector 1191 25000 10
+Inverse_Sorted_Vector 2578 25000 10
+Inverse_Sorted_Vector 961 25000 10
+Inverse_Sorted_Vector 2701 25000 10
+Inverse_Sorted_Vector 2509 25000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 591 25000 25
+Random_Vector 875 25000 25
+Random_Vector 1299 25000 25
+Random_Vector 964 25000 25
+Random_Vector 1380 25000 25
+Random_Vector 1031 25000 25
+Random_Vector 1347 25000 25
+Random_Vector 1309 25000 25
+Random_Vector 1293 25000 25
+Random_Vector 1381 25000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 2 25000 25
+Sorted_Vector 3 25000 25
+Sorted_Vector 3 25000 25
+Sorted_Vector 4 25000 25
+Sorted_Vector 4 25000 25
+Sorted_Vector 4 25000 25
+Sorted_Vector 3 25000 25
+Sorted_Vector 2 25000 25
+Sorted_Vector 3 25000 25
+Sorted_Vector 2 25000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 2398 25000 25
+Inverse_Sorted_Vector 2624 25000 25
+Inverse_Sorted_Vector 1303 25000 25
+Inverse_Sorted_Vector 1810 25000 25
+Inverse_Sorted_Vector 1397 25000 25
+Inverse_Sorted_Vector 2222 25000 25
+Inverse_Sorted_Vector 939 25000 25
+Inverse_Sorted_Vector 1546 25000 25
+Inverse_Sorted_Vector 2650 25000 25
+Inverse_Sorted_Vector 2626 25000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 1372 25000 50
+Random_Vector 1380 25000 50
+Random_Vector 1373 25000 50
+Random_Vector 800 25000 50
+Random_Vector 1015 25000 50
+Random_Vector 673 25000 50
+Random_Vector 716 25000 50
+Random_Vector 839 25000 50
+Random_Vector 1208 25000 50
+Random_Vector 1381 25000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 4 25000 50
+Sorted_Vector 6 25000 50
+Sorted_Vector 9 25000 50
+Sorted_Vector 8 25000 50
+Sorted_Vector 5 25000 50
+Sorted_Vector 5 25000 50
+Sorted_Vector 4 25000 50
+Sorted_Vector 4 25000 50
+Sorted_Vector 4 25000 50
+Sorted_Vector 7 25000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 1429 25000 50
+Inverse_Sorted_Vector 992 25000 50
+Inverse_Sorted_Vector 2465 25000 50
+Inverse_Sorted_Vector 2328 25000 50
+Inverse_Sorted_Vector 1254 25000 50
+Inverse_Sorted_Vector 1166 25000 50
+Inverse_Sorted_Vector 1733 25000 50
+Inverse_Sorted_Vector 2731 25000 50
+Inverse_Sorted_Vector 2566 25000 50
+Inverse_Sorted_Vector 1111 25000 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 4763 50000 10
+Random_Vector 3786 50000 10
+Random_Vector 1991 50000 10
+Random_Vector 4899 50000 10
+Random_Vector 5372 50000 10
+Random_Vector 5159 50000 10
+Random_Vector 1951 50000 10
+Random_Vector 4356 50000 10
+Random_Vector 5189 50000 10
+Random_Vector 2164 50000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 2 50000 10
+Sorted_Vector 2 50000 10
+Sorted_Vector 2 50000 10
+Sorted_Vector 3 50000 10
+Sorted_Vector 4 50000 10
+Sorted_Vector 3 50000 10
+Sorted_Vector 2 50000 10
+Sorted_Vector 2 50000 10
+Sorted_Vector 2 50000 10
+Sorted_Vector 2 50000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 7677 50000 10
+Inverse_Sorted_Vector 3750 50000 10
+Inverse_Sorted_Vector 4288 50000 10
+Inverse_Sorted_Vector 8429 50000 10
+Inverse_Sorted_Vector 6964 50000 10
+Inverse_Sorted_Vector 8363 50000 10
+Inverse_Sorted_Vector 6026 50000 10
+Inverse_Sorted_Vector 5923 50000 10
+Inverse_Sorted_Vector 10260 50000 10
+Inverse_Sorted_Vector 7667 50000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 4960 50000 25
+Random_Vector 1973 50000 25
+Random_Vector 4800 50000 25
+Random_Vector 1825 50000 25
+Random_Vector 5264 50000 25
+Random_Vector 1949 50000 25
+Random_Vector 4261 50000 25
+Random_Vector 5288 50000 25
+Random_Vector 2584 50000 25
+Random_Vector 2902 50000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 3 50000 25
+Sorted_Vector 4 50000 25
+Sorted_Vector 9 50000 25
+Sorted_Vector 9 50000 25
+Sorted_Vector 6 50000 25
+Sorted_Vector 6 50000 25
+Sorted_Vector 4 50000 25
+Sorted_Vector 4 50000 25
+Sorted_Vector 4 50000 25
+Sorted_Vector 4 50000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 10501 50000 25
+Inverse_Sorted_Vector 9774 50000 25
+Inverse_Sorted_Vector 3748 50000 25
+Inverse_Sorted_Vector 3628 50000 25
+Inverse_Sorted_Vector 4581 50000 25
+Inverse_Sorted_Vector 8128 50000 25
+Inverse_Sorted_Vector 7339 50000 25
+Inverse_Sorted_Vector 6125 50000 25
+Inverse_Sorted_Vector 9416 50000 25
+Inverse_Sorted_Vector 8025 50000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 2164 50000 50
+Random_Vector 5320 50000 50
+Random_Vector 2289 50000 50
+Random_Vector 2098 50000 50
+Random_Vector 1800 50000 50
+Random_Vector 3039 50000 50
+Random_Vector 3396 50000 50
+Random_Vector 4486 50000 50
+Random_Vector 4618 50000 50
+Random_Vector 1885 50000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 11 50000 50
+Sorted_Vector 8 50000 50
+Sorted_Vector 8 50000 50
+Sorted_Vector 8 50000 50
+Sorted_Vector 8 50000 50
+Sorted_Vector 10 50000 50
+Sorted_Vector 13 50000 50
+Sorted_Vector 8 50000 50
+Sorted_Vector 7 50000 50
+Sorted_Vector 7 50000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 6728 50000 50
+Inverse_Sorted_Vector 9817 50000 50
+Inverse_Sorted_Vector 5385 50000 50
+Inverse_Sorted_Vector 4925 50000 50
+Inverse_Sorted_Vector 10372 50000 50
+Inverse_Sorted_Vector 3781 50000 50
+Inverse_Sorted_Vector 3587 50000 50
+Inverse_Sorted_Vector 3975 50000 50
+Inverse_Sorted_Vector 3947 50000 50
+Inverse_Sorted_Vector 10092 50000 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 13868 100000 10
+Random_Vector 13983 100000 10
+Random_Vector 17780 100000 10
+Random_Vector 7899 100000 10
+Random_Vector 14014 100000 10
+Random_Vector 9011 100000 10
+Random_Vector 9153 100000 10
+Random_Vector 13350 100000 10
+Random_Vector 17804 100000 10
+Random_Vector 15461 100000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 4 100000 10
+Sorted_Vector 3 100000 10
+Sorted_Vector 5 100000 10
+Sorted_Vector 7 100000 10
+Sorted_Vector 4 100000 10
+Sorted_Vector 4 100000 10
+Sorted_Vector 3 100000 10
+Sorted_Vector 3 100000 10
+Sorted_Vector 3 100000 10
+Sorted_Vector 5 100000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 19658 100000 10
+Inverse_Sorted_Vector 21277 100000 10
+Inverse_Sorted_Vector 36572 100000 10
+Inverse_Sorted_Vector 40615 100000 10
+Inverse_Sorted_Vector 32384 100000 10
+Inverse_Sorted_Vector 24003 100000 10
+Inverse_Sorted_Vector 23531 100000 10
+Inverse_Sorted_Vector 31839 100000 10
+Inverse_Sorted_Vector 19719 100000 10
+Inverse_Sorted_Vector 18858 100000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 7823 100000 25
+Random_Vector 9151 100000 25
+Random_Vector 15763 100000 25
+Random_Vector 11855 100000 25
+Random_Vector 19725 100000 25
+Random_Vector 19862 100000 25
+Random_Vector 8539 100000 25
+Random_Vector 16920 100000 25
+Random_Vector 20265 100000 25
+Random_Vector 11723 100000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 12 100000 25
+Sorted_Vector 17 100000 25
+Sorted_Vector 7 100000 25
+Sorted_Vector 9 100000 25
+Sorted_Vector 7 100000 25
+Sorted_Vector 8 100000 25
+Sorted_Vector 16 100000 25
+Sorted_Vector 19 100000 25
+Sorted_Vector 19 100000 25
+Sorted_Vector 14 100000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 16936 100000 25
+Inverse_Sorted_Vector 17978 100000 25
+Inverse_Sorted_Vector 24522 100000 25
+Inverse_Sorted_Vector 24156 100000 25
+Inverse_Sorted_Vector 30586 100000 25
+Inverse_Sorted_Vector 31428 100000 25
+Inverse_Sorted_Vector 14807 100000 25
+Inverse_Sorted_Vector 25993 100000 25
+Inverse_Sorted_Vector 25749 100000 25
+Inverse_Sorted_Vector 20724 100000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 12002 100000 50
+Random_Vector 7508 100000 50
+Random_Vector 10846 100000 50
+Random_Vector 10125 100000 50
+Random_Vector 7835 100000 50
+Random_Vector 17902 100000 50
+Random_Vector 8179 100000 50
+Random_Vector 14242 100000 50
+Random_Vector 9557 100000 50
+Random_Vector 8068 100000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 16 100000 50
+Sorted_Vector 16 100000 50
+Sorted_Vector 17 100000 50
+Sorted_Vector 22 100000 50
+Sorted_Vector 16 100000 50
+Sorted_Vector 36 100000 50
+Sorted_Vector 16 100000 50
+Sorted_Vector 17 100000 50
+Sorted_Vector 21 100000 50
+Sorted_Vector 24 100000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 14680 100000 50
+Inverse_Sorted_Vector 17188 100000 50
+Inverse_Sorted_Vector 14790 100000 50
+Inverse_Sorted_Vector 20695 100000 50
+Inverse_Sorted_Vector 15229 100000 50
+Inverse_Sorted_Vector 27972 100000 50
+Inverse_Sorted_Vector 18529 100000 50
+Inverse_Sorted_Vector 21316 100000 50
+Inverse_Sorted_Vector 19047 100000 50
+Inverse_Sorted_Vector 14854 100000 50
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 67478 250000 10
+Random_Vector 84060 250000 10
+Random_Vector 49388 250000 10
+Random_Vector 59795 250000 10
+Random_Vector 92345 250000 10
+Random_Vector 48554 250000 10
+Random_Vector 76713 250000 10
+Random_Vector 60527 250000 10
+Random_Vector 71053 250000 10
+Random_Vector 66841 250000 10
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 8 250000 10
+Sorted_Vector 9 250000 10
+Sorted_Vector 11 250000 10
+Sorted_Vector 8 250000 10
+Sorted_Vector 7 250000 10
+Sorted_Vector 10 250000 10
+Sorted_Vector 8 250000 10
+Sorted_Vector 8 250000 10
+Sorted_Vector 14 250000 10
+Sorted_Vector 11 250000 10
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 1358629 250000 10
+Inverse_Sorted_Vector 124473 250000 10
+Inverse_Sorted_Vector 139898 250000 10
+Inverse_Sorted_Vector 142273 250000 10
+Inverse_Sorted_Vector 194726 250000 10
+Inverse_Sorted_Vector 191829 250000 10
+Inverse_Sorted_Vector 174174 250000 10
+Inverse_Sorted_Vector 176939 250000 10
+Inverse_Sorted_Vector 178011 250000 10
+Inverse_Sorted_Vector 175990 250000 10
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 89995 250000 25
+Random_Vector 89977 250000 25
+Random_Vector 94646 250000 25
+Random_Vector 90444 250000 25
+Random_Vector 85272 250000 25
+Random_Vector 87710 250000 25
+Random_Vector 96992 250000 25
+Random_Vector 83456 250000 25
+Random_Vector 95527 250000 25
+Random_Vector 90785 250000 25
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 15 250000 25
+Sorted_Vector 16 250000 25
+Sorted_Vector 16 250000 25
+Sorted_Vector 17 250000 25
+Sorted_Vector 15 250000 25
+Sorted_Vector 18 250000 25
+Sorted_Vector 15 250000 25
+Sorted_Vector 17 250000 25
+Sorted_Vector 15 250000 25
+Sorted_Vector 14 250000 25
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 183353 250000 25
+Inverse_Sorted_Vector 179183 250000 25
+Inverse_Sorted_Vector 169795 250000 25
+Inverse_Sorted_Vector 165569 250000 25
+Inverse_Sorted_Vector 175580 250000 25
+Inverse_Sorted_Vector 167862 250000 25
+Inverse_Sorted_Vector 174920 250000 25
+Inverse_Sorted_Vector 176193 250000 25
+Inverse_Sorted_Vector 177245 250000 25
+Inverse_Sorted_Vector 175304 250000 25
+   Average 
+
+Sample_Type m n Runtime
+Random_Vector 86036 250000 50
+Random_Vector 87819 250000 50
+Random_Vector 92196 250000 50
+Random_Vector 88064 250000 50
+Random_Vector 90354 250000 50
+Random_Vector 91277 250000 50
+Random_Vector 94792 250000 50
+Random_Vector 93944 250000 50
+Random_Vector 81017 250000 50
+Random_Vector 91142 250000 50
+   Average 
+
+Sample_Type m n Runtime
+Sorted_Vector 34 250000 50
+Sorted_Vector 35 250000 50
+Sorted_Vector 35 250000 50
+Sorted_Vector 34 250000 50
+Sorted_Vector 35 250000 50
+Sorted_Vector 39 250000 50
+Sorted_Vector 33 250000 50
+Sorted_Vector 35 250000 50
+Sorted_Vector 35 250000 50
+Sorted_Vector 35 250000 50
+   Average 
+
+Sample_Type m n Runtime
+Inverse_Sorted_Vector 186085 250000 50
+Inverse_Sorted_Vector 188963 250000 50
+Inverse_Sorted_Vector 185837 250000 50
+Inverse_Sorted_Vector 181779 250000 50
