@@ -92,8 +92,9 @@ void counting_sort_digit(char **A, int *A_len, char **B, int *B_len, int n, int 
     //increment the counts based on matched index with ASCII value
     for (int counterIterator = 0; counterIterator < n; counterIterator++)
     {
+        int newIndex = (A_len[counterIterator] < d) ? 0 : A[counterIterator][d];
         //need to add 1 to overcome segmentation fault
-        int nextAsciiValue = int(A[counterIterator][d]) + 1;
+        int nextAsciiValue = newIndex + 1;
         counter[nextAsciiValue]++;
     }
 
@@ -106,7 +107,9 @@ void counting_sort_digit(char **A, int *A_len, char **B, int *B_len, int n, int 
     //based on counter values store the original strings to sorted storage along with lengths
     for (int inputIterator = n - 1; inputIterator >= 0; inputIterator--)
     {
-        int nextAsciiValue = int(A[inputIterator][d]) + 1;
+        int newIndex = (A_len[inputIterator] < d) ? 0 : A[inputIterator][d];
+        //need to add 1 to overcome segmentation fault
+        int nextAsciiValue = newIndex + 1;
 
         B[counter[nextAsciiValue] - 1] = A[inputIterator];
         B_len[counter[nextAsciiValue] - 1] = A_len[inputIterator];
@@ -122,10 +125,23 @@ void counting_sort_digit(char **A, int *A_len, char **B, int *B_len, int n, int 
     }
 }
 
+int getMaxStringLength(int *A_len, int n)
+{
+    int max = A_len[0];
+
+    for (int i = 1; i < n; i++)
+        if (A_len[i] > max)
+            max = A_len[i];
+
+    return max;
+}
+
 void radix_sort_is(char **A, int *A_len, int n, int m)
 {
-    int charPosition = m - 2;
-    for (charPosition; charPosition >= 0; charPosition--)
+
+    int maxStringLength = getMaxStringLength(A_len, n);
+
+    for (int charPosition = maxStringLength; charPosition >= 0; charPosition--)
     {
         insertion_sort_digit(A, A_len, 0, n - 1, charPosition);
     }
@@ -140,9 +156,9 @@ void radix_sort_cs(char **A, int *A_len, int n, int m)
     sortedArray = new char *[n];
     sortedArrayLength = new int[n];
 
-    int charPosition = m - 2;
+    int maxStringLength = getMaxStringLength(A_len, n);
 
-    for (charPosition; charPosition >= 0; charPosition--)
+    for (int charPosition = maxStringLength; charPosition >= 0; charPosition--)
     {
         counting_sort_digit(A, A_len, sortedArray, sortedArrayLength, n, charPosition);
     }
