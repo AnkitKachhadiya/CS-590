@@ -92,7 +92,7 @@ void counting_sort_digit(char **A, int *A_len, char **B, int *B_len, int n, int 
     //increment the counts based on matched index with ASCII value
     for (int counterIterator = 0; counterIterator < n; counterIterator++)
     {
-        int newIndex = (A_len[counterIterator] < d) ? 0 : A[counterIterator][d];
+        int newIndex = (A_len[counterIterator] < d) ? 0 : int(A[counterIterator][d]);
         //need to add 1 to overcome segmentation fault
         int nextAsciiValue = newIndex + 1;
         counter[nextAsciiValue]++;
@@ -107,7 +107,7 @@ void counting_sort_digit(char **A, int *A_len, char **B, int *B_len, int n, int 
     //based on counter values store the original strings to sorted storage along with lengths
     for (int inputIterator = n - 1; inputIterator >= 0; inputIterator--)
     {
-        int newIndex = (A_len[inputIterator] < d) ? 0 : A[inputIterator][d];
+        int newIndex = (A_len[inputIterator] < d) ? 0 : int(A[inputIterator][d]);
         //need to add 1 to overcome segmentation fault
         int nextAsciiValue = newIndex + 1;
 

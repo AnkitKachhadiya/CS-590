@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 		input_array[i] = rg.random_string(m, input_length[i]);
 	t.stop();
 
-	// cout << "Timer (generate): " << t << endl;
+	cout << "Timer (generate): " << t << endl;
 
 	for (int i = 0; (i < n) && (i < 20); i++)
 		cout << input_array[i] << ' ' << input_length[i] << endl;
