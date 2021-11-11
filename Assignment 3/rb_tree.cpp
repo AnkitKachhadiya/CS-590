@@ -5,6 +5,8 @@
 
 using namespace std;
 
+int sortedArrIndex = 0;
+
 /*
  * constructor/destructor
  */
@@ -65,6 +67,12 @@ void rb_tree::insert(rb_tree_node *z, rb_tree_i_info &t_info)
     x = T_root;
     while (x != T_nil)
     {
+        if (z->key == x->key)
+        {
+            t_info.i_duplicate++;
+            return;
+        }
+
         y = x;
 
         if (z->key < x->key)
@@ -111,6 +119,7 @@ void rb_tree::insert_fixup(rb_tree_node *&z, rb_tree_i_info &t_info)
 
             if (y->color == RB_RED)
             {
+                t_info.i_case_1++;
                 z->p->color = RB_BLACK; // Case 1
                 y->color = RB_BLACK;
                 z->p->p->color = RB_RED;
@@ -120,13 +129,17 @@ void rb_tree::insert_fixup(rb_tree_node *&z, rb_tree_i_info &t_info)
             {
                 if (z == z->p->right)
                 {
+                    t_info.i_case_2++;
                     z = z->p; // Case 2
                     left_rotate(z);
+                    t_info.i_left_rotate++;
                 }
 
+                t_info.i_case_3++;
                 z->p->color = RB_BLACK; // Case 3
                 z->p->p->color = RB_RED;
                 right_rotate(z->p->p);
+                t_info.i_right_rotate++;
             }
         }
         else
@@ -136,6 +149,7 @@ void rb_tree::insert_fixup(rb_tree_node *&z, rb_tree_i_info &t_info)
 
             if (y->color == RB_RED)
             {
+                t_info.i_case_1++;
                 z->p->color = RB_BLACK; // Case 1
                 y->color = RB_BLACK;
                 z->p->p->color = RB_RED;
@@ -145,13 +159,17 @@ void rb_tree::insert_fixup(rb_tree_node *&z, rb_tree_i_info &t_info)
             {
                 if (z == z->p->left)
                 {
+                    t_info.i_case_2++;
                     z = z->p; // Case 2
                     right_rotate(z);
+                    t_info.i_right_rotate++;
                 }
 
+                t_info.i_case_3++;
                 z->p->color = RB_BLACK; // Case 3
                 z->p->p->color = RB_RED;
                 left_rotate(z->p->p);
+                t_info.i_left_rotate++;
             }
         }
     }
@@ -213,7 +231,7 @@ void rb_tree::right_rotate(rb_tree_node *x)
     x->p = y;
 } /*>>>*/
 
-void rb_tree::inorder_output(rb_tree_node *x, int level)
+void rb_tree::inorder_output(rb_tree_node *x, int level, int *toSortArray)
 { /*<<<*/
     /*
  * in order walk through binary tree
@@ -221,10 +239,12 @@ void rb_tree::inorder_output(rb_tree_node *x, int level)
  */
     if (x != T_nil)
     {
-        inorder_output(x->left, level + 1);
-        cout << "(" << x->key << "," << level << ","
-             << ((x->color == RB_RED) ? "R" : "B") << ")" << endl;
-        inorder_output(x->right, level + 1);
+        inorder_output(x->left, level + 1, toSortArray);
+
+        toSortArray[sortedArrIndex] = x->key;
+        sortedArrIndex++;
+
+        inorder_output(x->right, level + 1, toSortArray);
     }
 } /*>>>*/
 
@@ -285,13 +305,39 @@ void rb_tree::remove_all(rb_tree_node *x)
 } /*>>>*/
 
 // question 2
-int rb_tree::convert(int *array, int n)
+int rb_tree::convert(int *toSortArray, int n)
 {
-    return n;
+    if (T_root != T_nil)
+    {
+        inorder_output(T_root, 1, toSortArray);
+    }
+
+    return sortedArrIndex;
+}
+
+int highestValue(int num1, int num2)
+{
+    if (num1 >= num2)
+    {
+        return num1;
+    }
+    else
+    {
+        return num2;
+    }
 }
 
 //question 4
 int rb_tree::check_black_height(rb_tree_node *x)
 {
-    return 0;
+    if (x == T_nil)
+    {
+        return 0;
+    }
+    else
+    {
+        int highest = highestValue(check_black_height(x->left), check_black_height(x->right));
+
+        return highest + 1;
+    }
 }
