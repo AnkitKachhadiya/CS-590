@@ -1,0 +1,180 @@
+
+
+Sample_Type n Runtime_for_rb
+Reverse_Sorted 50000 9
+Reverse_Sorted 50000 9
+Reverse_Sorted 50000 7
+Reverse_Sorted 50000 7
+Reverse_Sorted 50000 9
+Reverse_Sorted 50000 14
+Reverse_Sorted 50000 11
+
+
+Sample_Type n Runtime_for_rb
+Random 50000 14
+Random 50000 11
+Random 50000 12
+Random 50000 14
+Random 50000 11
+Random 50000 10
+Random 50000 10
+
+
+Sample_Type n Runtime_for_rb
+Sorted 50000 9
+Sorted 50000 9
+Sorted 50000 9
+Sorted 50000 7
+Sorted 50000 9
+Sorted 50000 10
+Sorted 50000 8
+
+
+Sample_Type n Runtime_for_rb
+Reverse_Sorted 65000 11
+Reverse_Sorted 65000 11
+Reverse_Sorted 65000 11
+Reverse_Sorted 65000 13
+Reverse_Sorted 65000 10
+Reverse_Sorted 65000 11
+Reverse_Sorted 65000 10
+
+
+Sample_Type n Runtime_for_rb
+Random 65000 16
+Random 65000 15
+Random 65000 14
+Random 65000 14
+Random 65000 17
+Random 65000 13
+Random 65000 14
+
+
+Sample_Type n Runtime_for_rb
+Sorted 65000 10
+Sorted 65000 14
+Sorted 65000 12
+Sorted 65000 11
+Sorted 65000 11
+Sorted 65000 13
+Sorted 65000 11
+
+
+Sample_Type n Runtime_for_rb
+Reverse_Sorted 80000 19
+Reverse_Sorted 80000 17
+Reverse_Sorted 80000 15
+Reverse_Sorted 80000 16
+Reverse_Sorted 80000 14
+Reverse_Sorted 80000 13
+Reverse_Sorted 80000 14
+
+
+Sample_Type n Runtime_for_rb
+Random 80000 18
+Random 80000 19
+Random 80000 17
+Random 80000 21
+Random 80000 18
+Random 80000 18
+Random 80000 20
+
+
+Sample_Type n Runtime_for_rb
+Sorted 80000 14
+Sorted 80000 13
+Sorted 80000 14
+Sorted 80000 14
+Sorted 80000 13
+Sorted 80000 13
+Sorted 80000 13
+
+
+Sample_Type n Runtime_for_rb
+Reverse_Sorted 95000 17
+Reverse_Sorted 95000 18
+Reverse_Sorted 95000 18
+Reverse_Sorted 95000 17
+Reverse_Sorted 95000 22
+Reverse_Sorted 95000 19
+Reverse_Sorted 95000 16
+
+
+Sample_Type n Runtime_for_rb
+Random 95000 25
+Random 95000 22
+Random 95000 27
+Random 95000 22
+Random 95000 25
+Random 95000 22
+Random 95000 23
+
+
+Sample_Type n Runtime_for_rb
+Sorted 95000 16
+Sorted 95000 16
+Sorted 95000 18
+Sorted 95000 16
+Sorted 95000 16
+Sorted 95000 17
+Sorted 95000 15
+
+
+Sample_Type n Runtime_for_rb
+Reverse_Sorted 110000 21
+Reverse_Sorted 110000 22
+Reverse_Sorted 110000 19
+Reverse_Sorted 110000 19
+Reverse_Sorted 110000 19
+Reverse_Sorted 110000 21
+Reverse_Sorted 110000 20
+
+
+Sample_Type n Runtime_for_rb
+Random 110000 26
+Random 110000 30
+Random 110000 26
+Random 110000 31
+Random 110000 27
+Random 110000 31
+Random 110000 29
+
+
+Sample_Type n Runtime_for_rb
+Sorted 110000 19
+Sorted 110000 21
+Sorted 110000 19
+Sorted 110000 19
+Sorted 110000 18
+Sorted 110000 19
+Sorted 110000 19
+
+
+Sample_Type n Runtime_for_rb
+Reverse_Sorted 125000 23
+Reverse_Sorted 125000 24
+Reverse_Sorted 125000 22
+Reverse_Sorted 125000 27
+Reverse_Sorted 125000 22
+Reverse_Sorted 125000 24
+Reverse_Sorted 125000 22
+
+
+Sample_Type n Runtime_for_rb
+Random 125000 37
+Random 125000 33
+Random 125000 41
+Random 125000 41
+Random 125000 41
+Random 125000 31
+Random 125000 35
+
+
+Sample_Type n Runtime_for_rb
+Sorted 125000 22
+Sorted 125000 23
+Sorted 125000 21
+Sorted 125000 21
+Sorted 125000 22
+Sorted 125000 22
+Sorted 125000 21

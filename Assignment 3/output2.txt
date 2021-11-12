@@ -1,0 +1,183 @@
+
+
+Sample_Type n Runtime_for_bs
+Reverse_Sorted 50000 2775
+Reverse_Sorted 50000 3316
+Reverse_Sorted 50000 3769
+Reverse_Sorted 50000 3532
+Reverse_Sorted 50000 3562
+Reverse_Sorted 50000 3430
+Reverse_Sorted 50000 3462
+
+
+Sample_Type n Runtime_for_bs
+Random 50000 13
+Random 50000 24
+Random 50000 18
+Random 50000 11
+Random 50000 11
+Random 50000 15
+Random 50000 14
+
+
+Sample_Type n Runtime_for_bs
+Sorted 50000 3338
+Sorted 50000 3453
+Sorted 50000 3622
+Sorted 50000 3295
+Sorted 50000 3413
+Sorted 50000 3362
+Sorted 50000 3281
+
+
+Sample_Type n Runtime_for_bs
+Reverse_Sorted 65000 5740
+Reverse_Sorted 65000 5727
+Reverse_Sorted 65000 5648
+Reverse_Sorted 65000 5714
+Reverse_Sorted 65000 5631
+Reverse_Sorted 65000 5676
+Reverse_Sorted 65000 5597
+
+
+Sample_Type n Runtime_for_bs
+Random 65000 17
+Random 65000 35
+Random 65000 38
+Random 65000 34
+Random 65000 26
+Random 65000 27
+Random 65000 20
+
+
+Sample_Type n Runtime_for_bs
+Sorted 65000 5660
+Sorted 65000 5619
+Sorted 65000 5668
+Sorted 65000 5595
+Sorted 65000 5568
+Sorted 65000 5548
+Sorted 65000 5681
+
+
+Sample_Type n Runtime_for_bs
+Reverse_Sorted 80000 8725
+Reverse_Sorted 80000 8614
+Reverse_Sorted 80000 8505
+Reverse_Sorted 80000 8711
+Reverse_Sorted 80000 8644
+Reverse_Sorted 80000 8848
+Reverse_Sorted 80000 8684
+
+
+Sample_Type n Runtime_for_bs
+Random 80000 20
+Random 80000 29
+Random 80000 35
+Random 80000 33
+Random 80000 53
+Random 80000 44
+Random 80000 27
+
+
+Sample_Type n Runtime_for_bs
+Sorted 80000 8679
+Sorted 80000 8804
+Sorted 80000 8682
+Sorted 80000 8724
+Sorted 80000 8617
+Sorted 80000 8572
+Sorted 80000 8708
+
+
+Sample_Type n Runtime_for_bs
+Reverse_Sorted 95000 12651
+Reverse_Sorted 95000 12486
+Reverse_Sorted 95000 12551
+Reverse_Sorted 95000 12623
+Reverse_Sorted 95000 13124
+Reverse_Sorted 95000 12449
+Reverse_Sorted 95000 12669
+
+
+Sample_Type n Runtime_for_bs
+Random 95000 25
+Random 95000 44
+Random 95000 34
+Random 95000 45
+Random 95000 33
+Random 95000 58
+Random 95000 26
+
+
+Sample_Type n Runtime_for_bs
+Sorted 95000 12333
+Sorted 95000 12174
+Sorted 95000 12554
+Sorted 95000 12124
+Sorted 95000 12249
+Sorted 95000 12288
+Sorted 95000 12384
+
+
+Sample_Type n Runtime_for_bs
+Reverse_Sorted 110000 16926
+Reverse_Sorted 110000 18709
+Reverse_Sorted 110000 17084
+Reverse_Sorted 110000 17165
+Reverse_Sorted 110000 16840
+Reverse_Sorted 110000 17397
+Reverse_Sorted 110000 16824
+
+
+Sample_Type n Runtime_for_bs
+Random 110000 31
+Random 110000 65
+Random 110000 35
+Random 110000 48
+Random 110000 73
+Random 110000 41
+Random 110000 54
+
+
+Sample_Type n Runtime_for_bs
+Sorted 110000 16569
+Sorted 110000 16721
+Sorted 110000 16835
+Sorted 110000 16510
+Sorted 110000 17126
+Sorted 110000 16899
+Sorted 110000 17116
+
+
+Sample_Type n Runtime_for_bs
+Reverse_Sorted 125000 22654
+Reverse_Sorted 125000 24509
+Reverse_Sorted 125000 22613
+Reverse_Sorted 125000 22500
+Reverse_Sorted 125000 22358
+Reverse_Sorted 125000 22410
+Reverse_Sorted 125000 22714
+
+
+Sample_Type n Runtime_for_bs
+Random 125000 36
+Random 125000 65
+Random 125000 39
+Random 125000 50
+Random 125000 80
+Random 125000 66
+Random 125000 79
+
+
+Sample_Type n Runtime_for_bs
+Sorted 125000 22300
+Sorted 125000 22362
+Sorted 125000 22133
+Sorted 125000 21921
+Sorted 125000 22437
+Sorted 125000 22606
+Sorted 125000 22158
+Running sort using BS trees: 
+Duplicates: 0
+Running sort using BS trees: 

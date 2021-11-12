@@ -2,6 +2,7 @@
 #include "rb_tree.h"
 #include <list>
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -315,20 +316,7 @@ int rb_tree::convert(int *toSortArray, int n)
     return sortedArrIndex;
 }
 
-int highestValue(int num1, int num2)
-{
-    if (num1 >= num2)
-    {
-        return num1;
-    }
-    else
-    {
-        return num2;
-    }
-}
-
-//question 4
-int rb_tree::check_black_height(rb_tree_node *x)
+int rb_tree::getHeight(rb_tree_node *x)
 {
     if (x == T_nil)
     {
@@ -336,8 +324,16 @@ int rb_tree::check_black_height(rb_tree_node *x)
     }
     else
     {
-        int highest = highestValue(check_black_height(x->left), check_black_height(x->right));
+        int highest = max(getHeight(x->left), getHeight(x->right));
 
         return highest + 1;
     }
+}
+
+//question 4
+int rb_tree::check_black_height(rb_tree_node *x)
+{
+    int treeHeight = getHeight(x);
+    int blackHeight = ceil(treeHeight / 2);
+    return blackHeight;
 }

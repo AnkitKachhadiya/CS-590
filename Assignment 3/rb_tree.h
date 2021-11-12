@@ -66,6 +66,8 @@ protected:
     void left_rotate(rb_tree_node *);
     void right_rotate(rb_tree_node *);
     void output(rb_tree_node *, int);
+
+    int getHeight(rb_tree_node *);
 };
 
 #endif
