@@ -7,6 +7,8 @@
 
 using namespace std;
 
+int **r;
+
 /*
  * Bottom up implementation of Smith-Waterman algorithm
  */
@@ -69,15 +71,12 @@ void SW_bottomUp(char *X, char *Y, char **P, int **H, int n, int m)
  */
 void memoized_SW(char *X, char *Y, char **P, int **H, int n, int m)
 {
+    //used for checking whether solution is done or not
+    r = new int *[n + 1];
 
     for (int i = 0; i <= n; i++)
     {
-        H[i][0] = P[i][0] = 0;
-    }
-
-    for (int j = 0; j <= m; j++)
-    {
-        H[0][j] = P[0][j] = 0;
+        r[i] = new int[m + 1];
     }
 
     memoized_SW_AUX(X, Y, P, H, n, m);
@@ -95,10 +94,13 @@ int memoized_SW_AUX(char *X, char *Y, char **P, int **H, int n, int m)
         return 0;
     }
 
-    if (H[n][m] != 0)
+    if (r[n][m] == 1)
     {
         return H[n][m];
     }
+
+    //mark has solved
+    r[n][m] = 1;
 
     if (X[n - 1] == Y[m - 1])
     {

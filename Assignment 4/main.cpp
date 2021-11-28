@@ -105,7 +105,25 @@ int main(int argc, char *argv[])
 	for (int j = 0; j < m; j++)
 		cout << Y[j];
 
-	cout << "\n-----------------";
+	cout << "\n-----------------" << endl;
+
+	// for (int i = 0; i <= n; i++)
+	// {
+	// 	for (int j = 0; j <= m; j++)
+	// 	{
+	// 		cout << H[i][j] << ' ';
+	// 	}
+	// 	cout << endl;
+	// }
+
+	// for (int i = 0; i <= n; i++)
+	// {
+	// 	for (int j = 0; j <= m; j++)
+	// 	{
+	// 		cout << P[i][j] << ' ';
+	// 	}
+	// 	cout << endl;
+	// }
 
 	cout << "\nM(n,m) = " << H[n][m] << endl;
 
