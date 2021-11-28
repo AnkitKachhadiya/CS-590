@@ -46,10 +46,30 @@ int main(int argc, char *argv[])
 	char *X;
 	char *Y;
 
-	//values used for question #4.
-	// n=m=10;
-	// X = "dcdcbacbbb";
-	// Y = "acdccabdbb";
+	// //values used for question #4.
+	// //n=m=10;
+	// X = (char *)"dcdcbacbbb";
+	// Y = (char *)"acdccabdbb";
+
+	// //eg:- 1, n=m=8
+	// X = (char *)"abababda";
+	// Y = (char *)"acbababa";
+
+	// //eg:- 2, n=m=10
+	// X = (char *)"cacacccbab";
+	// Y = (char *)"bccadaadcc";
+
+	// //eg:- 3, n=m=10
+	// X = (char *)"cdbaabbdca";
+	// Y = (char *)"cadcaccabd";
+
+	// //eg:- 4, n=m=10
+	// X = (char *)"caacbdacca";
+	// Y = (char *)"bccbcdccba";
+
+	// //eg:- 5, n=m=10
+	// X = (char *)"dcacccbbba";
+	// Y = (char *)"aadcabadba";
 
 	random_generator::seed();
 
